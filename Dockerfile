@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
 
 
 # Copy script into standard binary path
-COPY dummy.sh /usr/local/bin/dummy.sh
+COPY dummy.sh /usr/local/bin/dummy-service.sh
 
 # Ensure executable permission
 RUN chmod +x /usr/local/bin/dummy-service.sh
